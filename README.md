@@ -1,1 +1,1 @@
-# Stencil code for javascript lab for CSCI 1300. 
+# Stencil code for CSCI 1300 javascript lab
