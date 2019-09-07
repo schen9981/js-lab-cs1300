@@ -39,12 +39,9 @@ function incrementCerealCount(cereal) {
 
 }
 
-function changeCereal() {
-  // the next two lines is to chose a random cereal from the cereal array
-  let ind = Math.floor(Math.random() * 3);
-  let cereal = cerealArray[ind];
-
-  changeCerealName(cereal);
-  changeCerealImg(cereal);
-  incrementCerealCount(cereal);
-}
+// TODO: write the function changeCereal() USING ES6 SYNTAX. This function should do the following: 
+// (1) generate a random index, which you will use to chose a cereal from the cereal array. 
+//     you can do this with the following line of code:
+//     let ind = Math.floor(Math.random() * 3);
+// (2) get the cereal object from the cereal array using the index 'ind' generated above
+// (3) call the appropriate functions (there should be 3!) to change the cereal name, image, and cereal counts
